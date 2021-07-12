@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'myFont';
+  src: url("./font/neon.ttf") format("truetype");
+}
+.body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+  background-color: black;
+
+
+  &__title {
+
+    font-size: 64px;
+    color: 	#4deeea;
+    text-transform: uppercase;
+    font-family: myFont;
+    margin-bottom: 30px;
+  }
+
+  &__cases {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+}
